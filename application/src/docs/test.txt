@@ -1,0 +1,12 @@
+@startuml
+
+DevRepo -> GitLabRepo: Push changes
+GitLabRepo -> Jenkins: Clone Repo
+activate Jenkins
+Jenkins -> Jenkins: Run unit tests
+Jenkins -> DocumentationRepo: Publish reports
+activate DocumentationRepo
+DocumentationRepo -> DocumentationRepo: Tests Failed
+DocumentationRepo -> Jenkins: Done
+
+@enduml

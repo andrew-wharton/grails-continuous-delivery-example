@@ -1,0 +1,22 @@
+h1. Project Overview
+
+h2. Application servers
+
+h3. Development
+We have development servers at [http://dev.bbw.conmio.com|http://dev.bbw.conmio.com], for the latest build from the trunk and [http://stable.bbw.conmio.com|http://stable.bbw.conmio.com] for the latest patch build, usually from a release branch.
+
+h3. QA
+The Businessweek QA
+
+h3. Production
+The Businessweek application is built for Bloomberg LP and is available at [http://mobile.businessweek.com|http://mobile.businessweek.com]
+
+h2. Source Code
+The source code is available at [http://svn.conmio.corp/svn/projects/bloomberg/businessweek/|http://svn.conmio.corp/svn/projects/bloomberg/businessweek/]
+
+h2. JIRA and Confluence
+We use Bloomberg's JIRA for project and task management. It is located at [http://pm.bloomberg.com/jira|http://pm.bloomberg.com/jira].
+We also use Confluence for client facing documents, release notes, log files, design documentation etc. It's located at [http://pm.bloomberg.com/confluence|http://pm.bloomberg.com/confuence].
+
+h2. API Documentation
+This can be found at [https://pm.bloomberg.com/confluence/display/RDDOC/BBW+Mobile+Web|https://pm.bloomberg.com/confluence/display/RDDOC/BBW+Mobile+Web]
